@@ -4,7 +4,7 @@
 
 <h1 align="center">
   <br/>
- 👋 Hey, I’m Omar
+ 👋 Hey, I'm Omar
 <br/>
   <br/>
 </h1>
@@ -58,9 +58,9 @@ See full portfolio at: https://grafikui.com/work
   Fintech rewards concept featuring frictionless card linkage logic and real-time dashboard visualization.  
   _Stack: Next.js, React, Tailwind CSS_
 
-- **[Ferringburg Properties](https://www.grafikui.com/work/ferringburg)**  
-  High-asset real estate engine with dynamic routing and performance-focused media galleries.  
-  _Stack: Next.js, Vercel Edge Network_
+- **[Motion Manifesto](https://motionmanifesto.vercel.app)**  
+  Interactive motion design reference system — five named animation primitives with live demos and production-ready documentation.  
+  _Stack: Next.js, Framer Motion, GSAP_
 
 ---
 
@@ -73,6 +73,9 @@ Systems engineering for high-availability environments.
 
 - **[Saga Engine Go](https://github.com/grafikui/saga-engine-go)**  
   High-concurrency implementation of the Saga Pattern in Golang, optimized for microservice coordination and atomic transaction rollbacks.
+
+- **[greenops-cli](https://github.com/grafikui/greenops-cli)**  
+  Carbon accounting CLI and GitHub Action for infrastructure teams — parses Terraform plan JSON, calculates carbon and cost estimates via an open methodology ledger, and generates actionable remediation recommendations.
 
 ---
 
