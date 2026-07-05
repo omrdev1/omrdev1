@@ -21,7 +21,7 @@
   </a>
 </p>
 
-### Co-founder @ [GrafikUi.com](https://www.grafikui.com)
+### Founder @ [GrafikUi.com](https://www.grafikui.com)
 Design engineer operating at the intersection of brand systems, product engineering, and creative direction. Self-taught. I take things from concept to production — no hand-offs, no waiting.
 
 ---
