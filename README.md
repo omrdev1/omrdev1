@@ -51,8 +51,12 @@ See full portfolio at: https://grafikui.com/work
   _Stack: Next.js, Framer Motion, GSAP_
 
 - **[Comprent](https://www.comprent.co.uk)**
-  Full-stack UK landlord compliance SaaS built in response to the Renters Rights Act 2025. Task tracking, document generation, AI assistant with live portfolio context, Stripe billing. Solo build, 10 weeks. Currently in beta.
+  Full-stack UK landlord compliance SaaS built in response to the Renters Rights Act 2025. A deterministic compliance engine computes legal deadlines and grounds; the AI assistant is deliberately decoupled from it, so it can explain but never decide. Task tracking, document generation, Stripe billing. Solo build, 10 weeks. Currently in beta.
   _Stack: Next.js, Supabase, Stripe, Gemini AI, Vercel_
+
+- **[Blocinsights](https://www.blocinsights.com)**
+  Qualitative research platform: brands submit a strategic question, a curated panel of senior marketing and creative leaders responds, and a structured insight report is synthesized within 48 hours. Solo build, Stripe billing live in production, Row Level Security enforced end-to-end.
+  _Stack: Next.js, Supabase, Stripe, Vercel AI SDK_
 
 - **[Maddox Audit](https://www.grafikui.com/work/maddox)**
   AI-powered CSS diagnostic engine. Grades any URL for design system integrity across colour efficiency, typography, and structural debt.
@@ -76,8 +80,8 @@ See full portfolio at: https://grafikui.com/work
 
 Systems engineering for high-availability environments.
 
-- **[greenops-cli](https://github.com/omrdev1/greenops-cli)** &nbsp; `v0.7.0`
-  Carbon accounting CLI and GitHub Action for infrastructure teams. Parses Terraform plan JSON, calculates carbon and cost estimates via an open methodology ledger, posts results as GitHub PR comments. Published to npm and GitHub Marketplace. 5 platform binaries. 93 passing tests. Phase 4A complete — Supabase auth and dashboard in progress.
+- **[greenops-cli](https://github.com/omrdev1/greenops-cli)** &nbsp; `v0.13.3`
+  Free, local-first Terraform carbon-footprint linter. Parses plan JSON, computes Scope 2/3 and water impact via an open methodology ledger, posts recommendations as GitHub PR comments. Zero network calls, zero cloud credentials. Published to npm and GitHub Marketplace, 150+ tests passing. Companion telemetry dashboard live at [getgreenops.com](https://getgreenops.com).
 
 - **[Saga Engine](https://github.com/omrdev1/saga_engine)**
   Crash-resilient workflow executor for Node.js. Postgres-backed persistence, best-effort compensation (undo) logic, advisory locks for distributed consistency.
