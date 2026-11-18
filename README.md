@@ -8,7 +8,7 @@ Design engineer. Founder, [Grafikui](https://www.grafikui.com).
 
 ### WHAT I DO
 
-Design engineering - full stack, Design systems, motion architecture, full-stack product — built end to end, every call from design through to deployment. No handoff.
+Design engineering: design systems, motion and full-stack product, built end to end from the first screen to production. No handoff.
 
 ---
 
@@ -34,16 +34,16 @@ Design engineering - full stack, Design systems, motion architecture, full-stack
 ### PROJECTS
 
 <a href="https://www.comprent.co.uk"><img src="https://img.shields.io/badge/COMPRENT-1E1EFF?style=flat-square&logoColor=white"/></a>
-<br/>UK landlord compliance SaaS: built for the Renters Rights Act 2025. Deterministic compliance engine computes deadlines and legal grounds; the AI assistant explains, never decides. Stripe billing, document generation. 8 weeks, in beta.
-
-<a href="https://www.blocinsights.com"><img src="https://img.shields.io/badge/BLOCINSIGHTS-1E1EFF?style=flat-square&logoColor=white"/></a>
-<br/>Qualitative research platform: a strategic question in, a synthesized panel insight report out inside 48 hours. Stripe billing live, Row Level Security end to end.
+<br/>UK landlord compliance platform built for the Renters' Rights Act 2025. A deterministic compliance engine works out deadlines and legal grounds, fills GOV.UK's official Form 3A and Form 4A PDFs, watches GOV.UK for guidance changes and tracks PRS Database readiness. The AI assistant answers from official guidance, checked against an eval set, and explains rather than decides. Stripe billing, tenant portal, installable on a phone, 303 tests.
 
 <a href="https://www.maddoxengine.com"><img src="https://img.shields.io/badge/MADDOX_ENGINE-1E1EFF?style=flat-square&logoColor=white"/></a>
-<br/>Design-system drift detection: scans source or a live URL for hardcoded values that don't trace to a real token. Free tier, 5 CLI scans/month, no card.
+<br/>Catches design-system drift before it ships. Reads a project's own tokens, scans the source or a live URL, and scores how closely the code follows them, with safe fixes and suggested tokens. A CLI on npm, a GitHub Action that comments on every pull request, and a hosted dashboard for teams.
+
+<a href="https://www.blocinsights.com"><img src="https://img.shields.io/badge/BLOCINSIGHTS-1E1EFF?style=flat-square&logoColor=white"/></a>
+<br/>Qualitative research platform: a strategic question in, a synthesised panel insight report out, with verbatims attributed and a risk register. Stripe billing, Row Level Security end to end, AI synthesis with provider fallbacks and a watchdog that restarts stalled jobs.
 
 <a href="https://motionmanifesto.co.uk"><img src="https://img.shields.io/badge/MOTION_MANIFESTO-1E1EFF?style=flat-square&logoColor=white"/></a>
-<br/>Six motion primitives: each paired with a named principle, every parameter exposed as a live control.
+<br/>The live demo for @grafikui/motion: six motion primitives, each paired with a named principle, every parameter exposed as a live control.
 
 <br/>
 
@@ -55,14 +55,14 @@ Case studies: [grafikui.com/work](https://www.grafikui.com/work)
 
 ### OPEN SOURCE
 
-<a href="https://github.com/omrdev1/greenops-cli"><img src="https://img.shields.io/badge/GREENOPS--CLI-1E1EFF?style=flat-square&logoColor=white"/></a> <code>v0.14.0</code>
-<br/>Terraform carbon-footprint linter. Posts Scope 2/3 carbon, water, cost impact on the PR before infrastructure is provisioned. 59 instance types across AWS/Azure/GCP, 155 tests, MIT. Zero network calls, zero cloud credentials.
+<a href="https://github.com/omrdev1/maddox-cli"><img src="https://img.shields.io/badge/MADDOX--CLI-1E1EFF?style=flat-square&logoColor=white"/></a> <code>v0.10.4</code>
+<br/>The open-source scanning engine behind Maddox Engine, published to npm as <code>maddox-engine</code> and usable with no account. Health scores, one-file checks for editors and agents, safe auto-fixes that hold back inside animations, gradients and email templates, and token suggestions. 138 tests, MIT.
 
-<a href="https://github.com/omrdev1/maddox-cli"><img src="https://img.shields.io/badge/MADDOX--CLI-1E1EFF?style=flat-square&logoColor=white"/></a>
-<br/>The open-source scanning engine behind Maddox Engine — same code the hosted dashboard runs, extracted to work with no account. Published to npm as <code>maddox-engine</code>, MIT.
+<a href="https://github.com/omrdev1/greenops-cli"><img src="https://img.shields.io/badge/GREENOPS--CLI-1E1EFF?style=flat-square&logoColor=white"/></a> <code>v0.15.0</code>
+<br/>Terraform carbon-footprint linter. Posts Scope 2 and 3 carbon, water and cost impact on the pull request before infrastructure is provisioned, with region suggestions that stay within the same jurisdiction. AWS, Azure and GCP, 185 tests, MIT. No network calls, no cloud credentials.
 
 <a href="https://github.com/omrdev1/grafikui-motion"><img src="https://img.shields.io/badge/%40GRAFIKUI%2FMOTION-1E1EFF?style=flat-square&logoColor=white"/></a> <code>v1.0.2</code>
-<br/>The motion primitives from Motion Manifesto, installable — in production across grafikui.com, Comprent, Blocinsights. MIT.
+<br/>Six React motion primitives: a Framer Motion entry point for product dashboards and a separate GSAP one for marketing pages, with reduced motion respected throughout. Used in Comprent, Blocinsights and grafikui.com. MIT.
 
 <a href="https://github.com/omrdev1/saga_engine"><img src="https://img.shields.io/badge/SAGA_ENGINE-1E1EFF?style=flat-square&logoColor=white"/></a>
 <br/>Crash-resilient workflow executor for Node.js. Postgres-backed persistence, compensation (undo) logic, advisory locks for distributed consistency.
