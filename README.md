@@ -34,7 +34,7 @@ Design engineering: design systems, motion and full-stack product, built end to 
 ### PROJECTS
 
 <a href="https://www.comprent.co.uk"><img src="https://img.shields.io/badge/COMPRENT-1E1EFF?style=flat-square&logoColor=white"/></a>
-<br/>UK landlord compliance platform built for the Renters' Rights Act 2025. A deterministic compliance engine works out deadlines and legal grounds, fills GOV.UK's official Form 3A and Form 4A PDFs, watches GOV.UK for guidance changes and tracks PRS Database readiness. The AI assistant answers from official guidance, checked against an eval set, and explains rather than decides. Stripe billing, tenant portal, installable on a phone, 303 tests.
+<br/>UK landlord compliance platform built for the Renters' Rights Act 2025. A deterministic compliance engine works out deadlines and legal grounds, fills GOV.UK's official Form 3A and Form 4A PDFs, watches GOV.UK for guidance changes and tracks PRS Database readiness. The AI assistant answers from official guidance, checked against an eval set, and explains rather than decides. Stripe billing, tenant portal, installable on a phone, 326 tests.
 
 <a href="https://www.maddoxengine.com"><img src="https://img.shields.io/badge/MADDOX_ENGINE-1E1EFF?style=flat-square&logoColor=white"/></a>
 <br/>Catches design-system drift before it ships: inside Claude Code as files are edited, through a read-only MCP server for other agents, in git pre-commit, on every pull request, and from a live URL. Safe role-aware fixes, suggested tokens with a projected score, a CLI on npm, a GitHub Action on the Marketplace and a hosted dashboard for teams.
