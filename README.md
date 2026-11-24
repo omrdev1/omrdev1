@@ -37,7 +37,7 @@ Design engineering: design systems, motion and full-stack product, built end to 
 <br/>UK landlord compliance platform built for the Renters' Rights Act 2025. A deterministic compliance engine works out deadlines and legal grounds, fills GOV.UK's official Form 3A and Form 4A PDFs, watches GOV.UK for guidance changes and tracks PRS Database readiness. The AI assistant answers from official guidance, checked against an eval set, and explains rather than decides. Stripe billing, tenant portal, installable on a phone, 303 tests.
 
 <a href="https://www.maddoxengine.com"><img src="https://img.shields.io/badge/MADDOX_ENGINE-1E1EFF?style=flat-square&logoColor=white"/></a>
-<br/>Catches design-system drift before it ships: inside Claude Code as files are edited, through a read-only MCP server for other agents, in git pre-commit, on every pull request, and from a live URL. Safe role-aware fixes, suggested tokens, a CLI on npm, a GitHub Action and a hosted dashboard for teams.
+<br/>Catches design-system drift before it ships: inside Claude Code as files are edited, through a read-only MCP server for other agents, in git pre-commit, on every pull request, and from a live URL. Safe role-aware fixes, suggested tokens with a projected score, a CLI on npm, a GitHub Action on the Marketplace and a hosted dashboard for teams.
 
 <a href="https://www.blocinsights.com"><img src="https://img.shields.io/badge/BLOCINSIGHTS-1E1EFF?style=flat-square&logoColor=white"/></a>
 <br/>Qualitative research platform: a strategic question in, a synthesised panel insight report out, with verbatims attributed and a risk register. Stripe billing, Row Level Security end to end, AI synthesis with provider fallbacks and a watchdog that restarts stalled jobs.
@@ -55,8 +55,8 @@ Case studies: [grafikui.com/work](https://www.grafikui.com/work)
 
 ### OPEN SOURCE
 
-<a href="https://github.com/omrdev1/maddox-cli"><img src="https://img.shields.io/badge/MADDOX--CLI-1E1EFF?style=flat-square&logoColor=white"/></a> <code>v0.12.0</code>
-<br/>The open-source scanning engine behind Maddox Engine, published to npm as <code>maddox-engine</code> and usable with no account. Health scores, a Claude Code (<code>PostToolUse</code>) hook that checks an edit in about 60 ms, a git <code>pre-commit</code> hook, a read-only local MCP server, one-command setup (<code>maddox init</code>), one-file checks, safe auto-fixes that hold back inside animations, gradients and email templates, and token suggestions. 162 tests, MIT.
+<a href="https://github.com/omrdev1/maddox-cli"><img src="https://img.shields.io/badge/MADDOX--CLI-1E1EFF?style=flat-square&logoColor=white"/></a> <code>v0.13.0</code>
+<br/>The open-source scanning engine behind Maddox Engine, published to npm as <code>maddox-engine</code> and usable with no account. Health scores, a Claude Code (<code>PostToolUse</code>) hook that checks an edit in about 60 ms, a git <code>pre-commit</code> hook, a read-only local MCP server, one-command setup (<code>maddox init</code>), one-file checks, safe auto-fixes that hold back inside animations, gradients and email templates, and token suggestions. The GitHub Action is listed on the GitHub Marketplace as Maddox Drift Check. 164 tests, MIT.
 
 <a href="https://github.com/omrdev1/greenops-cli"><img src="https://img.shields.io/badge/GREENOPS--CLI-1E1EFF?style=flat-square&logoColor=white"/></a> <code>v0.15.0</code>
 <br/>Terraform carbon-footprint linter. Posts Scope 2 and 3 carbon, water and cost impact on the pull request before infrastructure is provisioned, with region suggestions that stay within the same jurisdiction. AWS, Azure and GCP, 185 tests, MIT. No network calls, no cloud credentials.
